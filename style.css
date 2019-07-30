@@ -1,0 +1,61 @@
+body {
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1560703342-24e20bcd2ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);
+    background-size: cover;
+}
+
+* {          
+    border: 0.5px solid rgba(255, 0, 0, 0.3);
+    font-family: 'Libre Baskerville', serif;
+    color: #EAE1D7;
+
+
+
+}
+
+
+
+#box {   
+    
+    height: 500px; 
+}
+
+
+#logo {
+    font-size: 2em;
+    color: #EAE1D7;
+    letter-spacing: 7px;
+}
+
+nav a {
+    border-bottom: 0.5px solid #ffffff;
+    padding: 7px 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav div {
+    float: right;
+    letter-spacing: 3px;
+    padding: 7px;
+
+}
+
+nav a:hover {
+    background-color: rgba(181, 214, 181, 0.658);
+
+}
+
+#content {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#content a {
+    border: 0.5px solid #EAE1D7;
+    padding: 10px 15px;
+    background-color: rgba(181, 214, 181, 0.658);
+}
