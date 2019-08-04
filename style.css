@@ -1,7 +1,7 @@
 body {
     height: 100%;
     background-image: url(https://images.unsplash.com/photo-1560703342-24e20bcd2ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);
-    background-size: 120%;
+    background-size: 100%;
 }
 
 * {          
@@ -22,19 +22,21 @@ body {
 
 #logo {
     display: inline-block;
-    margin: 50px;
-    font-size: 2em;
+    margin: 55px;
+    font-size: 2.1em;
     color: white;
     letter-spacing: 7px;
+    border-bottom: 0px solid #000;
+
 }
 
 nav a {
     border-bottom: 0.5px solid #EAE1D7;
     padding: 7px 0;
-
 }
 
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -81,12 +83,12 @@ nav a:hover {
 }
 
 #button a {
-    margin-top: 6%;
+    margin-top: 5%;
     border: 2px solid #EAE1D7;
     padding: 30px 30px;
     background-color: rgba(0, 0, 0, 0);
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: inline-block;
 }
